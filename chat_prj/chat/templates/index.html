@@ -39,9 +39,15 @@
 
     <div class="container">
         <div class="row">
+            <div class="col-lg-12 text-center">
+             {% block roomscontent %}           
+             {% endblock roomscontent %}
+            </div>
+          </div>
+        <div class="row">
           <div class="col-lg-12 text-center">
-           {% block content %}           
-           {% endblock content %}
+           {% block chat %}           
+           {% endblock chat %}
           </div>
         </div>
       </div>
